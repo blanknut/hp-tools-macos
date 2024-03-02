@@ -9,7 +9,7 @@ Option 1 is very awkward, you need to reboot to switch between macOS and Windows
 Well, for more serious use cases, I might be willing to spend some money and get support etc. But for hobby activities I was looking for a cheap or even free solution. Therefore, I gave [Wine](https://www.winehq.org/) a try.
 
 ## Installation of Wine
-Installation of Wine (the stable version) on macOS is super easy using [Homebrew](https://brew.sh/) (if you do not have Homebrew get it, it's a must have). Open a terminal and enter the following commands:
+Installation of Wine (the stable version) on macOS is super easy using [Homebrew](https://brew.sh/) (if you do not have Homebrew yet, get it, it's a must have). Open a terminal and enter the following commands:
 ```
 brew tap homebrew/cask-versions
 brew install --cask --no-quarantine wine-stable
@@ -25,7 +25,7 @@ cd Windows/V41
 wine V41.exe
 ```
 
-Note that you have to change to the V41 installation directory before starting the emulator, otherwise it does not find some true type fonts (I did not futher investigate why that happens).
+Note that you have to change to the V41 installation directory before starting the emulator, otherwise it does not find some true type fonts (I did not futher investigate this issue).
 
 ## Creating a shortcut for V41
 Of course, it would be even more convenient if you have a shortcut to start V41. That's easy, too, just follow these instructions:
@@ -57,5 +57,3 @@ The [HP Series 80 emulator](https://www.kaser.com/hp85.html) written by Everett 
 
 ## What about DOS programs?
 If you want to run DOS programs on your macOS computer, you might want to give [DOSBox](https://www.dosbox.com) a try. But this is another story and I will not cover it here.
-
-
