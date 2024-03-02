@@ -52,8 +52,12 @@ One additional detail to adjust is the icon of the shortcut. This is also possib
 4. Press Command+I to show the properties.
 5. In the upper left corner of the properties window, select the current icon (showing the Automator robot) and press Command+V.
 
+![V41 running on macOS using Wine](/images/screenshot1.png)
+
 ## Install the HP-85 Emulator
 The [HP Series 80 emulator](https://www.kaser.com/hp85.html) written by Everett Kaser is one of my favorite tools. It also runs fine under Wine and the installation is done in the same way as for V41.
+
+![HP-85 emulator running on macOS using Wine](/images/screenshot2.png)
 
 ## What about DOS programs?
 If you want to run DOS programs on your macOS computer, you might want to give [DOSBox](https://www.dosbox.com) a try. But this is another story and I will not cover it here.
